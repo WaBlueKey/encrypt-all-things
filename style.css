@@ -43,9 +43,12 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+    width: 100%;
 }
 
-
+td {
+   padding: 10px;
+}
 body {
 	background-color: #cc6666;
 	font-family: Arial; Geneva, sans-serif;
@@ -544,7 +547,7 @@ input[name="login"] {
 }
 
 input[value="Submit"] {
- margin: 10px;   
+ margin: 10px;
 }
 /****************** Media Queries *********************/
 
